@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.PipelineModel","timestamp":1626415524973,"sparkVersion":"3.1.2","uid":"pipeline_31de91b46b19","paramMap":{"stageUids":["BERT_EMBEDDINGS_e3d4eaf62b32","NerDLModel_159c71b98c0a"]},"defaultParamMap":{}}
