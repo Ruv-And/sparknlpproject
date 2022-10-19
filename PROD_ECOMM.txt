@@ -1,0 +1,315 @@
+-DOCSTART- -X- -X- O
+MH01	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-L-Black	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-L-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-L-Gray	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-L-Gray	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-L-Orange	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-L-Orange	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-M-Black	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-M-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-M-Gray	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-M-Gray	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-M-Orange	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-M-Orange	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-S-Black	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-S-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-S-Gray	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-S-Gray	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-S-Orange	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-S-Orange	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-XL-Black	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-XL-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-XL-Gray	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-XL-Gray	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-XL-Orange	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-XL-Orange	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-XS-Black	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-XS-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-XS-Gray	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-XS-Gray	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH01-XS-Orange	NNP	I-NP	I-PRODUCT-SKU	
+Chaz Kangeroo Hoodie-XS-Orange	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-L-Black	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-L-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-L-Purple	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-L-Purple	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-L-Red	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-L-Red	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-M-Black	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-M-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-M-Purple	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-M-Purple	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-M-Red	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-M-Red	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-S-Black	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-S-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-S-Purple	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-S-Purple	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-S-Red	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-S-Red	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-XL-Black	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-XL-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-XL-Purple	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-XL-Purple	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-XL-Red	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-XL-Red	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-XS-Black	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-XS-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-XS-Purple	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-XS-Purple	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH02-XS-Red	NNP	I-NP	I-PRODUCT-SKU	
+Teton Pullover Hoodie-XS-Red	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-L-Black	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-L-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-L-Blue	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-L-Blue	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-L-Green	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-L-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-M-Black	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-M-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-M-Blue	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-M-Blue	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-M-Green	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-M-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-S-Black	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-S-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-S-Blue	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-S-Blue	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-S-Green	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-S-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-XL-Black	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-XL-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-XL-Blue	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-XL-Blue	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-XL-Green	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-XL-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-XS-Black	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-XS-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-XS-Blue	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-XS-Blue	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH03-XS-Green	NNP	I-NP	I-PRODUCT-SKU	
+Bruno Compete Hoodie-XS-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-L-Green	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-L-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-L-White	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-L-White	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-L-Yellow	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-L-Yellow	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-M-Green	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-M-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-M-White	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-M-White	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-M-Yellow	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-M-Yellow	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-S-Green	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-S-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-S-White	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-S-White	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-S-Yellow	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-S-Yellow	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-XL-Green	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-XL-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-XL-White	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-XL-White	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-XL-Yellow	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-XL-Yellow	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-XS-Green	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-XS-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-XS-White	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-XS-White	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH04-XS-Yellow	NNP	I-NP	I-PRODUCT-SKU	
+Frankie  Sweatshirt-XS-Yellow	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-L-Green	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-L-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-L-Red	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-L-Red	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-L-White	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-L-White	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-M-Green	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-M-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-M-Red	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-M-Red	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-M-White	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-M-White	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-S-Green	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-S-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-S-Red	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-S-Red	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-S-White	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-S-White	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-XL-Green	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-XL-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-XL-Red	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-XL-Red	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-XL-White	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-XL-White	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-XS-Green	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-XS-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-XS-Red	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-XS-Red	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH05-XS-White	NNP	I-NP	I-PRODUCT-SKU	
+Hollister Backyard Sweatshirt-XS-White	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-L-Black	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-L-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-L-Blue	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-L-Blue	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-L-Purple	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-L-Purple	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-M-Black	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-M-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-M-Blue	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-M-Blue	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-M-Purple	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-M-Purple	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-S-Black	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-S-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-S-Blue	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-S-Blue	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-S-Purple	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-S-Purple	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-XL-Black	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-XL-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-XL-Blue	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-XL-Blue	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-XL-Purple	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-XL-Purple	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-XS-Black	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-XS-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-XS-Blue	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-XS-Blue	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH06-XS-Purple	NNP	I-NP	I-PRODUCT-SKU	
+Stark Fundamental Hoodie-XS-Purple	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH07	NNP	I-NP	I-PRODUCT-SKU	
+Hero Hoodie	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH07-L-Black	NNP	I-NP	I-PRODUCT-SKU	
+Hero Hoodie-L-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH07-L-Gray	NNP	I-NP	I-PRODUCT-SKU	
+Hero Hoodie-L-Gray	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH07-L-Green	NNP	I-NP	I-PRODUCT-SKU	
+Hero Hoodie-L-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH07-M-Black	NNP	I-NP	I-PRODUCT-SKU	
+Hero Hoodie-M-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH07-M-Gray	NNP	I-NP	I-PRODUCT-SKU	
+Hero Hoodie-M-Gray	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH07-M-Green	NNP	I-NP	I-PRODUCT-SKU	
+Hero Hoodie-M-Green	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH07-S-Black	NNP	I-NP	I-PRODUCT-SKU	
+Hero Hoodie-S-Black	NNP	I-NP	I-PRODUCT-DESC
+. . O O
+MH07-S-Gray	NNP	I-NP	I-PRODUCT-SKU	
+Hero Hoodie-S-Gray	NNP	I-NP	I-PRODUCT-DESC
