@@ -1,0 +1,10 @@
+root
+ |-- emailAddress: string (nullable = true)
+ |-- employeeCode: string (nullable = true)
+ |-- firstName: string (nullable = true)
+ |-- jobTitleName: string (nullable = true)
+ |-- lastName: string (nullable = true)
+ |-- phoneNumber: string (nullable = true)
+ |-- preferredFullName: string (nullable = true)
+ |-- region: string (nullable = true)
+ |-- userId: string (nullable = true)
