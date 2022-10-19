@@ -1,0 +1,424 @@
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Spark context Web UI available at http://172.25.16.1:4040
+Spark context available as 'sc' (master = local[*], app id = local-1626975689012).
+Spark session available as 'spark'.
+glove_100d download started this may take some time.
+Approximate size to download 145.3 MB
+Download done! Loading the resource.
+ner_dl download started this may take some time.
+Approximate size to download 13.6 MB
+Download done! Loading the resource.
+root
+ |-- text: string (nullable = true)
+ |-- document: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- sentence: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- token: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- bert: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- ner: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- date: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- entity: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+
++--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
+|                text|            document|            sentence|               token|                bert|                 ner|                date|              entity|
++--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
+|The agreement sig...|[{document, 0, 15...|[{document, 0, 15...|[{token, 0, 2, Th...|[{word_embeddings...|[{named_entity, 0...|[{date, 75, 84, 2...|[{chunk, 60, 73, ...|
++--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+--------------------+
+
++----------+
+|       col|
++----------+
+|2020/10/01|
++----------+
+
++----------+------+----------+-------------------+
+|    cols.0|cols.1|    cols.2|             cols.3|
++----------+------+----------+-------------------+
+|       The|     O|2020/10/01|     Agreement Date|
+| agreement|     O|      null|Contract Start Date|
+|    signed|     O|      null|  Contract End Date|
+|   between|     O|      null|               null|
+|    Ensono| B-ORG|      null|               null|
+|       Inc| I-ORG|      null|               null|
+|       and|     O|      null|               null|
+|   RexWare| B-ORG|      null|               null|
+|       Inc| I-ORG|      null|               null|
+|         .|     O|      null|               null|
+|        on|     O|      null|               null|
+| Agreement|B-MISC|      null|               null|
+|      Date|I-MISC|      null|               null|
+|10/01/2020|     O|      null|               null|
+|      with|     O|      null|               null|
+|         a|     O|      null|               null|
+|  Contract|B-MISC|      null|               null|
+|     Start|I-MISC|      null|               null|
+|      Date|I-MISC|      null|               null|
+|12/01/2020|     O|      null|               null|
+|       and|     O|      null|               null|
+|  Contract|B-MISC|      null|               null|
+|       End|I-MISC|      null|               null|
+|      Date|     O|      null|               null|
+|12-01-2021|     O|      null|               null|
++----------+------+----------+-------------------+
+
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 3.1.2
+      /_/
+         
+Using Scala version 2.12.10 (OpenJDK 64-Bit Server VM, Java 1.8.0_292)
+Type in expressions to have them evaluated.
+Type :help for more information.
+
+scala> :q
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Spark context Web UI available at http://172.25.16.1:4040
+Spark context available as 'sc' (master = local[*], app id = local-1626976091396).
+Spark session available as 'spark'.
+glove_100d download started this may take some time.
+Approximate size to download 145.3 MB
+Download done! Loading the resource.
+ner_dl download started this may take some time.
+Approximate size to download 13.6 MB
+Download done! Loading the resource.
+root
+ |-- text: string (nullable = true)
+ |-- document: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- sentence: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- token: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- bert: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- ner: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- date: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- entity: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+
++----------+------+----------+-------------------+
+|    cols.0|cols.1|    cols.2|             cols.3|
++----------+------+----------+-------------------+
+|      This|     O|2020/10/01|     Agreement Date|
+| agreement|     O|      null|Contract Start Date|
+|    signed|     O|      null|  Contract End Date|
+|   between|     O|      null|    COLA Adjustment|
+|    Ensono| B-ORG|      null|               null|
+|       Inc| I-ORG|      null|               null|
+|       and|     O|      null|               null|
+|   RexWare| B-ORG|      null|               null|
+|       Inc| I-ORG|      null|               null|
+|         .|     O|      null|               null|
+|      with|     O|      null|               null|
+|        an|     O|      null|               null|
+| Agreement|B-MISC|      null|               null|
+|      Date|I-MISC|      null|               null|
+|10/01/2020|     O|      null|               null|
+|      with|     O|      null|               null|
+|         a|     O|      null|               null|
+|  Contract|B-MISC|      null|               null|
+|     Start|I-MISC|      null|               null|
+|      Date|I-MISC|      null|               null|
+|12/01/2020|     O|      null|               null|
+|       and|     O|      null|               null|
+|  Contract|B-MISC|      null|               null|
+|       End|I-MISC|      null|               null|
+|      Date|I-MISC|      null|               null|
+|12-01-2021|     O|      null|               null|
+|         .|     O|      null|               null|
+|      COLA| B-ORG|      null|               null|
+|Adjustment|     O|      null|               null|
+|      will|     O|      null|               null|
+|        be|     O|      null|               null|
+|        3%|     O|      null|               null|
+|       per|     O|      null|               null|
+|      year|     O|      null|               null|
+|  starting|     O|      null|               null|
+|        on|     O|      null|               null|
+|01/01/2023|     O|      null|               null|
++----------+------+----------+-------------------+
+
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 3.1.2
+      /_/
+         
+Using Scala version 2.12.10 (OpenJDK 64-Bit Server VM, Java 1.8.0_292)
+Type in expressions to have them evaluated.
+Type :help for more information.
+
+scala> :q
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Spark context Web UI available at http://172.25.16.1:4040
+Spark context available as 'sc' (master = local[*], app id = local-1626977883794).
+Spark session available as 'spark'.
+/mnt/c/Projects/SparkNLP/NERExtract.scala:91: error: not found: value dfWrite
+dfWrite=result.select(explode(arrays_zip(col("token.result"),col("ner.result"),col("date.result"),col("entity.result"))).alias("cols"))
+^
+/mnt/c/Projects/SparkNLP/NERExtract.scala:96: error: not found: value dfWrite
+dfWrite.show(1000)
+^
+/mnt/c/Projects/SparkNLP/NERExtract.scala:99: error: not found: value dfWrite
+dfWrite.write.mode(SaveMode.Overwrite).option("header","true")
+^
+/mnt/c/Projects/SparkNLP/NERExtract.scala:99: error: not found: value SaveMode
+dfWrite.write.mode(SaveMode.Overwrite).option("header","true")
+                   ^
+/mnt/c/Projects/SparkNLP/NERExtract.scala:135: error: not found: value dfWrite
+val $ires6 = dfWrite
+             ^
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 3.1.2
+      /_/
+         
+Using Scala version 2.12.10 (OpenJDK 64-Bit Server VM, Java 1.8.0_292)
+Type in expressions to have them evaluated.
+Type :help for more information.
+
+scala> :q:q
+No such command ':q:q'.  Type :help for help.
+
+scala> :q
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Spark context Web UI available at http://172.25.16.1:4040
+Spark context available as 'sc' (master = local[*], app id = local-1626978002919).
+Spark session available as 'spark'.
+/mnt/c/Projects/SparkNLP/NERExtract.scala:99: error: not found: value SaveMode
+dfWrite.write.mode(SaveMode.Overwrite).option("header","true")
+                   ^
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 3.1.2
+      /_/
+         
+Using Scala version 2.12.10 (OpenJDK 64-Bit Server VM, Java 1.8.0_292)
+Type in expressions to have them evaluated.
+Type :help for more information.
+
+scala> :q
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Spark context Web UI available at http://172.25.16.1:4040
+Spark context available as 'sc' (master = local[*], app id = local-1626978330020).
+Spark session available as 'spark'.
+/mnt/c/Projects/SparkNLP/NERExtract.scala:99: error: not found: value SaveMode
+dfWrite.write.mode(SaveMode.Overwrite).option("header","true")
+                   ^
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 3.1.2
+      /_/
+         
+Using Scala version 2.12.10 (OpenJDK 64-Bit Server VM, Java 1.8.0_292)
+Type in expressions to have them evaluated.
+Type :help for more information.
+
+scala> :q
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Spark context Web UI available at http://172.25.16.1:4040
+Spark context available as 'sc' (master = local[*], app id = local-1626978500462).
+Spark session available as 'spark'.
+glove_100d download started this may take some time.
+Approximate size to download 145.3 MB
+Download done! Loading the resource.
+ner_dl download started this may take some time.
+Approximate size to download 13.6 MB
+Download done! Loading the resource.
++----------+------+----------+-------------------+
+|    cols.0|cols.1|    cols.2|             cols.3|
++----------+------+----------+-------------------+
+|      This|     O|2020/10/01|     Agreement Date|
+| agreement|     O|      null|Contract Start Date|
+|    signed|     O|      null|  Contract End Date|
+|   between|     O|      null|    COLA Adjustment|
+|    Ensono| B-ORG|      null|               null|
+|       Inc| I-ORG|      null|               null|
+|       and|     O|      null|               null|
+|   RexWare| B-ORG|      null|               null|
+|       Inc| I-ORG|      null|               null|
+|         .|     O|      null|               null|
+|      with|     O|      null|               null|
+|        an|     O|      null|               null|
+| Agreement|B-MISC|      null|               null|
+|      Date|I-MISC|      null|               null|
+|10/01/2020|     O|      null|               null|
+|      with|     O|      null|               null|
+|         a|     O|      null|               null|
+|  Contract|B-MISC|      null|               null|
+|     Start|I-MISC|      null|               null|
+|      Date|I-MISC|      null|               null|
+|12/01/2020|     O|      null|               null|
+|       and|     O|      null|               null|
+|  Contract|B-MISC|      null|               null|
+|       End|I-MISC|      null|               null|
+|      Date|I-MISC|      null|               null|
+|12-01-2021|     O|      null|               null|
+|         .|     O|      null|               null|
+|      COLA| B-ORG|      null|               null|
+|Adjustment|     O|      null|               null|
+|      will|     O|      null|               null|
+|        be|     O|      null|               null|
+|        3%|     O|      null|               null|
+|       per|     O|      null|               null|
+|      year|     O|      null|               null|
+|  starting|     O|      null|               null|
+|        on|     O|      null|               null|
+|01/01/2023|     O|      null|               null|
++----------+------+----------+-------------------+
+
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 3.1.2
+      /_/
+         
+Using Scala version 2.12.10 (OpenJDK 64-Bit Server VM, Java 1.8.0_292)
+Type in expressions to have them evaluated.
+Type :help for more information.
+
+scala> 
